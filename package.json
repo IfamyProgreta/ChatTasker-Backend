@@ -1,0 +1,18 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "- **Fungsi Utama**: Mengelola tugas pengguna melalui API, menyimpan data di Firebase, dan menyediakan pengingat otomatis berbasis tanggal.\r - **Teknologi**:\r   - *Server Framework*: Node.js, Express.js\r   - *Database dan Penyimpanan*: Firebase\r   - *Keamanan*: JSON Web Token (JWT) untuk autentikasi\r   - *Pengingat*: Firebase Cloud Functions atau Node-Cron",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "firebase-admin": "^12.7.0",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
